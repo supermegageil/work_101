@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Norican&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -7,5 +8,58 @@ ul, ol, li {
 
 a {
   text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px dashed #e8c4c4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+  header h1 {
+    font: 26px/1 "Norican";
+    color: white;
+    position: absolute;
+    left: 6vw;
+    top: 50%;
+    margin-top: -13px; }
+  header #gnb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    transform: translateX(-50%); }
+    header #gnb li {
+      float: left;
+      margin-right: 20px; }
+      header #gnb li a {
+        font: normal 16px/1 "Norican";
+        color: white; }
+    header #gnb .sns {
+      position: absolute;
+      right: 6vw;
+      top: 50%;
+      margin-top: -8px; }
+      header #gnb .sns li {
+        float: left;
+        margin-left: 20px; }
+        header #gnb .sns li a {
+          font-size: 15px;
+          color: white; }
+
+figure {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+  figure main {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8; }
 
 /*# sourceMappingURL=style.css.map */
