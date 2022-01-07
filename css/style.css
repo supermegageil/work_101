@@ -63,20 +63,24 @@ figure {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
-  background: black; }
+  z-index: 0; }
   figure #main {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    opacity: 0.8; }
+    object-fit: cover; }
   figure .txt {
     position: absolute;
-    left: 50px;
-    top: 50%;
-    transform: translateY(-50%); }
+    width: 40%;
+    height: 500px;
+    right: 0px;
+    top: 60%;
+    padding: 50px;
+    border: solid 1px white; }
+    figure .txt h2 {
+      font: 70px/1 "Norican";
+      color: white; }
     figure .txt p {
-      font: 10px/1 normal "arial";
+      font: 10px/1 normal "Norican";
       color: white; }
     figure .txt ul {
       margin-top: 30px; }
