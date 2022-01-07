@@ -79,28 +79,30 @@ figure{
     }
     .txt{
         position:absolute;
-        width: 40%;height: 500px;
-        right:0px; 
+        width: 30%;height: 200px;
+        right:10px; 
         top:60%; 
         padding:50px;
-        border: solid 1px white;
+        //border: solid 1px white;
         h2{
-            font: 70px/1 "Norican";
+            font: 80px/1 "Norican";
             color:white;
         }
         p{
-            font: 10px/1 normal "Norican";
+            font: 16px/1 normal "Norican";
             color:white;
         }
         ul{
-            margin-top:30px;
+            margin-top:20px;
+       
             li{
                 float:left;
-                margin-right:30px;
+                margin-left:75px;
+                letter-spacing:2px;
                 i{
                     font-size:20px;
                     color:white;
-                    margin-right: 20px;
+                    
                 }
             }
         }

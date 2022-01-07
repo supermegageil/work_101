@@ -70,26 +70,25 @@ figure {
     object-fit: cover; }
   figure .txt {
     position: absolute;
-    width: 40%;
-    height: 500px;
-    right: 0px;
+    width: 30%;
+    height: 200px;
+    right: 10px;
     top: 60%;
-    padding: 50px;
-    border: solid 1px white; }
+    padding: 50px; }
     figure .txt h2 {
-      font: 70px/1 "Norican";
+      font: 80px/1 "Norican";
       color: white; }
     figure .txt p {
-      font: 10px/1 normal "Norican";
+      font: 16px/1 normal "Norican";
       color: white; }
     figure .txt ul {
-      margin-top: 30px; }
+      margin-top: 20px; }
       figure .txt ul li {
         float: left;
-        margin-right: 30px; }
+        margin-left: 75px;
+        letter-spacing: 2px; }
         figure .txt ul li i {
           font-size: 20px;
-          color: white;
-          margin-right: 20px; }
+          color: white; }
 
 /*# sourceMappingURL=style.css.map */
