@@ -91,4 +91,13 @@ figure {
           font-size: 20px;
           color: white; }
 
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 14px/1 'arial';
+  color: #8e8383;
+  letter-spacing: 1px; }
+
 /*# sourceMappingURL=style.css.map */
